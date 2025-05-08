@@ -8,6 +8,7 @@ import Cart from './customer/components/Cart/Cart.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Checkout from './customer/components/Checkout/Checkout.jsx';
 import AllProduct from './customer/components/product/AllProduct.jsx';
+import Contact from './customer/pages/ContactPage/Contact.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/product/:productId" element={<ProductDetails />} />
             <Route path="/cart" element={<Cart/>} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/lien-he" element={<Contact/>} />
           </Routes>
         </div>
         <Footer />

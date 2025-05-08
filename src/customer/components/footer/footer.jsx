@@ -22,16 +22,11 @@ const Footer = () => {
         {/* Cột 2: Liên kết điều hướng */}
         <Grid item xs={12} sm={6} md={4}>
           <Typography variant="h6" gutterBottom>
-            Liên kết nhanh
+            Về chúng tôi
           </Typography>
           <Typography>
-            <Link href="/products" color="inherit" underline="hover">
+            <Link href="/san-pham" color="inherit" underline="hover">
               Tất cả sản phẩm
-            </Link>
-          </Typography>
-          <Typography>
-            <Link href="/gioi-thieu" color="inherit" underline="hover">
-              Về chúng tôi
             </Link>
           </Typography>
           <Typography>
@@ -44,20 +39,20 @@ const Footer = () => {
         {/* Cột 3: Danh mục sản phẩm nổi bật */}
         <Grid item xs={12} sm={12} md={4}>
           <Typography variant="h6" gutterBottom>
-            Sản phẩm nổi bật
+            Danh mục sản phẩm
           </Typography>
           <Typography>
-            <Link href="/product/1" color="inherit" underline="hover">
-              Arabica
+            <Link href="/products" color="inherit" underline="hover">
+              Cafe
             </Link>
           </Typography>
           <Typography>
-            <Link href="/product/2" color="inherit" underline="hover">
-              Robusta
+            <Link href="" color="inherit" underline="hover">
+              Trà
             </Link>
           </Typography>
           <Typography>
-            <Link href="/products?category=may-pha-ca-phe" color="inherit" underline="hover">
+            <Link href="" color="inherit" underline="hover">
               Máy pha cà phê
             </Link>
           </Typography>
